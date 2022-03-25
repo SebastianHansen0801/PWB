@@ -1,0 +1,1 @@
+-wto "7344d2d5dc1e45559fb0b770b28eb576" --incr --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "secureip" --snapshot "InstructionDecoderController_tb_behav" "xil_defaultlib.InstructionDecoderController_tb" -log "elaborate.log" 

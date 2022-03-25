@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="InstructionDecoderController_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="InstructionDecoderController_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="13932333fs"></ZoomStartTime>
+      <ZoomEndTime time="153932334fs"></ZoomEndTime>
+      <Cursor1Time time="92654000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="138"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="22" />
+   <wvobject type="logic" fp_name="/InstructionDecoderController_tb/RESET">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/InstructionDecoderController_tb/CLK">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/InstructionDecoderController_tb/IR">
+      <obj_property name="ElementShortName">IR[15:0]</obj_property>
+      <obj_property name="ObjectShortName">IR[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/InstructionDecoderController_tb/V">
+      <obj_property name="ElementShortName">V</obj_property>
+      <obj_property name="ObjectShortName">V</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/InstructionDecoderController_tb/C">
+      <obj_property name="ElementShortName">C</obj_property>
+      <obj_property name="ObjectShortName">C</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/InstructionDecoderController_tb/N">
+      <obj_property name="ElementShortName">N</obj_property>
+      <obj_property name="ObjectShortName">N</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/InstructionDecoderController_tb/Z">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/InstructionDecoderController_tb/PS">
+      <obj_property name="ElementShortName">PS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PS[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/InstructionDecoderController_tb/IL">
+      <obj_property name="ElementShortName">IL</obj_property>
+      <obj_property name="ObjectShortName">IL</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/InstructionDecoderController_tb/DX">
+      <obj_property name="ElementShortName">DX[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DX[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/InstructionDecoderController_tb/AX">
+      <obj_property name="ElementShortName">AX[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AX[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/InstructionDecoderController_tb/BX">
+      <obj_property name="ElementShortName">BX[3:0]</obj_property>
+      <obj_property name="ObjectShortName">BX[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/InstructionDecoderController_tb/FS">
+      <obj_property name="ElementShortName">FS[3:0]</obj_property>
+      <obj_property name="ObjectShortName">FS[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/InstructionDecoderController_tb/MB">
+      <obj_property name="ElementShortName">MB</obj_property>
+      <obj_property name="ObjectShortName">MB</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/InstructionDecoderController_tb/MD">
+      <obj_property name="ElementShortName">MD</obj_property>
+      <obj_property name="ObjectShortName">MD</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/InstructionDecoderController_tb/RW">
+      <obj_property name="ElementShortName">RW</obj_property>
+      <obj_property name="ObjectShortName">RW</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/InstructionDecoderController_tb/MM">
+      <obj_property name="ElementShortName">MM</obj_property>
+      <obj_property name="ObjectShortName">MM</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/InstructionDecoderController_tb/MW">
+      <obj_property name="ElementShortName">MW</obj_property>
+      <obj_property name="ObjectShortName">MW</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/InstructionDecoderController_tb/stop_the_clock">
+      <obj_property name="ElementShortName">stop_the_clock</obj_property>
+      <obj_property name="ObjectShortName">stop_the_clock</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/InstructionDecoderController_tb/clock_period">
+      <obj_property name="ElementShortName">clock_period</obj_property>
+      <obj_property name="ObjectShortName">clock_period</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/InstructionDecoderController_tb/uut/State">
+      <obj_property name="ElementShortName">State</obj_property>
+      <obj_property name="ObjectShortName">State</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/InstructionDecoderController_tb/uut/NextState">
+      <obj_property name="ElementShortName">NextState</obj_property>
+      <obj_property name="ObjectShortName">NextState</obj_property>
+   </wvobject>
+</wave_config>

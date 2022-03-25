@@ -1,0 +1,387 @@
+
+*** Running vivado
+    with args -log MicroprogramController.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source MicroprogramController.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source MicroprogramController.tcl -notrace
+Command: synth_design -top MicroprogramController -part xc7a12ticsg325-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 1323 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:04 . Memory (MB): peak = 1365.133 ; gain = 83.836 ; free physical = 67413 ; free virtual = 100548
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'MicroprogramController' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/MicroprogramController.vhd:46]
+INFO: [Synth 8-3491] module 'ProgramCounter' declared at '/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/ProgramCounter.vhd:5' bound to instance 'U0' of component 'ProgramCounter' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/MicroprogramController.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'ProgramCounter' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/ProgramCounter.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'ProgramCounter' (1#1) [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/ProgramCounter.vhd:16]
+INFO: [Synth 8-3491] module 'InstructionRegister' declared at '/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionRegister.vhd:4' bound to instance 'U1' of component 'InstructionRegister' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/MicroprogramController.vhd:94]
+INFO: [Synth 8-638] synthesizing module 'InstructionRegister' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionRegister.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'InstructionRegister' (2#1) [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionRegister.vhd:14]
+INFO: [Synth 8-3491] module 'InstructionDecoderController' declared at '/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:34' bound to instance 'U2' of component 'InstructionDecoderController' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/MicroprogramController.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'InstructionDecoderController' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:45]
+WARNING: [Synth 8-614] signal 'DX_int' is read in the process but is not in the sensitivity list [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:64]
+WARNING: [Synth 8-614] signal 'AX_int' is read in the process but is not in the sensitivity list [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:64]
+WARNING: [Synth 8-614] signal 'BX_int' is read in the process but is not in the sensitivity list [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:64]
+WARNING: [Synth 8-614] signal 'opcode' is read in the process but is not in the sensitivity list [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'InstructionDecoderController' (3#1) [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:45]
+INFO: [Synth 8-3491] module 'SignExtender' declared at '/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/SignExtender.vhd:5' bound to instance 'U4' of component 'SignExtender' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/MicroprogramController.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'SignExtender' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/SignExtender.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'SignExtender' (4#1) [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/SignExtender.vhd:12]
+INFO: [Synth 8-3491] module 'ZeroFiller' declared at '/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/ZeroFiller.vhd:5' bound to instance 'U5' of component 'ZeroFiller' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/MicroprogramController.vhd:98]
+INFO: [Synth 8-638] synthesizing module 'ZeroFiller' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/ZeroFiller.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'ZeroFiller' (5#1) [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/ZeroFiller.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'MicroprogramController' (6#1) [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/MicroprogramController.vhd:46]
+WARNING: [Synth 8-3331] design ZeroFiller has unconnected port IR[15]
+WARNING: [Synth 8-3331] design ZeroFiller has unconnected port IR[14]
+WARNING: [Synth 8-3331] design ZeroFiller has unconnected port IR[13]
+WARNING: [Synth 8-3331] design ZeroFiller has unconnected port IR[12]
+WARNING: [Synth 8-3331] design ZeroFiller has unconnected port IR[11]
+WARNING: [Synth 8-3331] design ZeroFiller has unconnected port IR[10]
+WARNING: [Synth 8-3331] design ZeroFiller has unconnected port IR[9]
+WARNING: [Synth 8-3331] design ZeroFiller has unconnected port IR[8]
+WARNING: [Synth 8-3331] design ZeroFiller has unconnected port IR[7]
+WARNING: [Synth 8-3331] design ZeroFiller has unconnected port IR[6]
+WARNING: [Synth 8-3331] design ZeroFiller has unconnected port IR[5]
+WARNING: [Synth 8-3331] design ZeroFiller has unconnected port IR[4]
+WARNING: [Synth 8-3331] design ZeroFiller has unconnected port IR[3]
+WARNING: [Synth 8-3331] design SignExtender has unconnected port IR[15]
+WARNING: [Synth 8-3331] design SignExtender has unconnected port IR[14]
+WARNING: [Synth 8-3331] design SignExtender has unconnected port IR[13]
+WARNING: [Synth 8-3331] design SignExtender has unconnected port IR[12]
+WARNING: [Synth 8-3331] design SignExtender has unconnected port IR[11]
+WARNING: [Synth 8-3331] design SignExtender has unconnected port IR[10]
+WARNING: [Synth 8-3331] design SignExtender has unconnected port IR[9]
+WARNING: [Synth 8-3331] design SignExtender has unconnected port IR[5]
+WARNING: [Synth 8-3331] design SignExtender has unconnected port IR[4]
+WARNING: [Synth 8-3331] design SignExtender has unconnected port IR[3]
+WARNING: [Synth 8-3331] design InstructionDecoderController has unconnected port V
+WARNING: [Synth 8-3331] design InstructionDecoderController has unconnected port C
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1409.773 ; gain = 128.477 ; free physical = 67441 ; free virtual = 100576
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1409.773 ; gain = 128.477 ; free physical = 67441 ; free virtual = 100575
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a12ticsg325-1L
+INFO: [Device 21-403] Loading part xc7a12ticsg325-1L
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1419.770 ; gain = 138.473 ; free physical = 67440 ; free virtual = 100575
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "IL" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FS" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FS" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "MD" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'PS_reg' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:69]
+WARNING: [Synth 8-327] inferring latch for variable 'IL_reg' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:68]
+WARNING: [Synth 8-327] inferring latch for variable 'DX_reg' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:70]
+WARNING: [Synth 8-327] inferring latch for variable 'AX_reg' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:70]
+WARNING: [Synth 8-327] inferring latch for variable 'BX_reg' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:70]
+WARNING: [Synth 8-327] inferring latch for variable 'FS_reg' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:72]
+WARNING: [Synth 8-327] inferring latch for variable 'MB_reg' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:71]
+WARNING: [Synth 8-327] inferring latch for variable 'MD_reg' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:73]
+WARNING: [Synth 8-327] inferring latch for variable 'RW_reg' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:74]
+WARNING: [Synth 8-327] inferring latch for variable 'MM_reg' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:75]
+WARNING: [Synth 8-327] inferring latch for variable 'MW_reg' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:76]
+WARNING: [Synth 8-327] inferring latch for variable 'NextState_reg' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:60]
+WARNING: [Synth 8-327] inferring latch for variable 'opcode_reg' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:81]
+WARNING: [Synth 8-327] inferring latch for variable 'DX_int_reg' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:82]
+WARNING: [Synth 8-327] inferring latch for variable 'AX_int_reg' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:83]
+WARNING: [Synth 8-327] inferring latch for variable 'BX_int_reg' [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd:84]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1436.789 ; gain = 155.492 ; free physical = 67430 ; free virtual = 100565
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	  14 Input      4 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 2     
+	  13 Input      4 Bit        Muxes := 1     
+	  20 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	  19 Input      2 Bit        Muxes := 1     
+	   8 Input      2 Bit        Muxes := 1     
+	  18 Input      2 Bit        Muxes := 1     
+	  14 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	  20 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 12    
+	   6 Input      1 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 9     
+	  18 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+	  15 Input      1 Bit        Muxes := 1     
+	  17 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 1     
+	  25 Input      1 Bit        Muxes := 1     
+	  20 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ProgramCounter 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 2     
+Module InstructionRegister 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module InstructionDecoderController 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      4 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 5     
+	  14 Input      4 Bit        Muxes := 1     
+	   8 Input      4 Bit        Muxes := 2     
+	  13 Input      4 Bit        Muxes := 1     
+	  20 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 5     
+	  19 Input      2 Bit        Muxes := 1     
+	   8 Input      2 Bit        Muxes := 1     
+	  18 Input      2 Bit        Muxes := 1     
+	  14 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	  20 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 10    
+	   6 Input      1 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 9     
+	  18 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 1     
+	  15 Input      1 Bit        Muxes := 1     
+	  17 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	  14 Input      1 Bit        Muxes := 1     
+	  25 Input      1 Bit        Muxes := 1     
+	  20 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 40 (col length:40)
+BRAMs: 40 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "U2/IL" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "U2/FS" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "U2/FS" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "U2/MD" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design MicroprogramController has port Constant_Out[7] driven by constant 0
+WARNING: [Synth 8-3917] design MicroprogramController has port Constant_Out[6] driven by constant 0
+WARNING: [Synth 8-3917] design MicroprogramController has port Constant_Out[5] driven by constant 0
+WARNING: [Synth 8-3917] design MicroprogramController has port Constant_Out[4] driven by constant 0
+WARNING: [Synth 8-3917] design MicroprogramController has port Constant_Out[3] driven by constant 0
+WARNING: [Synth 8-3331] design MicroprogramController has unconnected port V
+WARNING: [Synth 8-3331] design MicroprogramController has unconnected port C
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:43 . Memory (MB): peak = 1534.848 ; gain = 253.551 ; free physical = 68586 ; free virtual = 101722
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:44 . Memory (MB): peak = 1534.848 ; gain = 253.551 ; free physical = 68489 ; free virtual = 101626
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:44 . Memory (MB): peak = 1542.840 ; gain = 261.543 ; free physical = 68489 ; free virtual = 101625
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:44 . Memory (MB): peak = 1542.844 ; gain = 261.547 ; free physical = 68500 ; free virtual = 101637
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:44 . Memory (MB): peak = 1542.844 ; gain = 261.547 ; free physical = 68500 ; free virtual = 101637
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:44 . Memory (MB): peak = 1542.844 ; gain = 261.547 ; free physical = 68499 ; free virtual = 101635
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:44 . Memory (MB): peak = 1542.844 ; gain = 261.547 ; free physical = 68498 ; free virtual = 101635
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:44 . Memory (MB): peak = 1542.844 ; gain = 261.547 ; free physical = 68499 ; free virtual = 101635
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:44 . Memory (MB): peak = 1542.844 ; gain = 261.547 ; free physical = 68499 ; free virtual = 101635
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     2|
+|3     |LUT1   |     1|
+|4     |LUT2   |    17|
+|5     |LUT3   |     9|
+|6     |LUT4   |    10|
+|7     |LUT5   |    15|
+|8     |LUT6   |    49|
+|9     |MUXF7  |     3|
+|10    |FDCE   |    25|
+|11    |FDPE   |     2|
+|12    |LD     |    43|
+|13    |IBUF   |    28|
+|14    |OBUF   |    37|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-----------------------------+------+
+|      |Instance |Module                       |Cells |
++------+---------+-----------------------------+------+
+|1     |top      |                             |   242|
+|2     |  U0     |ProgramCounter               |    30|
+|3     |  U1     |InstructionRegister          |    19|
+|4     |  U2     |InstructionDecoderController |   127|
++------+---------+-----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:44 . Memory (MB): peak = 1542.844 ; gain = 261.547 ; free physical = 68499 ; free virtual = 101635
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 52 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:44 . Memory (MB): peak = 1542.844 ; gain = 261.547 ; free physical = 68501 ; free virtual = 101638
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:44 . Memory (MB): peak = 1542.848 ; gain = 261.547 ; free physical = 68510 ; free virtual = 101647
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 76 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 43 instances were transformed.
+  LD => LDCE: 43 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+34 Infos, 52 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:47 . Memory (MB): peak = 1681.996 ; gain = 400.855 ; free physical = 68478 ; free virtual = 101614
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/zhome/5f/5/155462/MCU project/PWB/PWB.runs/synth_1/MicroprogramController.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file MicroprogramController_utilization_synth.rpt -pb MicroprogramController_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.53 . Memory (MB): peak = 1712.020 ; gain = 0.000 ; free physical = 68373 ; free virtual = 101510
+INFO: [Common 17-206] Exiting Vivado at Fri Mar 25 16:12:31 2022...

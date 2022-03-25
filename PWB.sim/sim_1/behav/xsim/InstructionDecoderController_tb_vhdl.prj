@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../PWB.srcs/sources_1/new/InstructionDecoderController.vhd" \
+"../../../../PWB.srcs/sim_1/new/InstructionDecoderController_tb.vhd" \
+
+# Do not sort compile order
+nosort

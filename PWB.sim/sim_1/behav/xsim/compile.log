@@ -1,0 +1,35 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionDecoderController
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sim_1/new/InstructionDecoderController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionDecoderController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sim_1/new/InstructionDecoderController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionDecoderController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sim_1/new/InstructionDecoderController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionDecoderController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionDecoderController.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionDecoderController
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sim_1/new/InstructionDecoderController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionDecoderController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sim_1/new/InstructionDecoderController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionDecoderController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sim_1/new/InstructionDecoderController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionDecoderController_tb
+ERROR: [VRFC 10-91] address_in is not declared [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sim_1/new/InstructionDecoderController_tb.vhd:67]
+ERROR: [VRFC 10-1504] unit bench ignored due to previous errors [/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sim_1/new/InstructionDecoderController_tb.vhd:12]
+INFO: [VRFC 10-240] VHDL file /zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sim_1/new/InstructionDecoderController_tb.vhd ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/InstructionRegister.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionRegister
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/MicroprogramController.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/ProgramCounter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ProgramCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/SignExtender.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity SignExtender
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sources_1/new/ZeroFiller.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ZeroFiller
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sim_1/new/MicroprogramController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MicroprogramController_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "/zhome/5f/5/155462/MCU project/PWB/PWB.srcs/sim_1/new/InstructionDecoderController_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity InstructionDecoderController_tb
